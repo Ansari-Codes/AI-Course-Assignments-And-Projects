@@ -67,7 +67,6 @@ spinner.text = "Initializing llm object..."
 llm = ChatOpenAI(
     temperature=0.3,  # lower = more factual
     model="glm-4.7-flash",
-    openai_api_base="https://api.z.ai/api/paas/v4/"
 )
 
 ##########################################
