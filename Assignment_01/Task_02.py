@@ -26,7 +26,7 @@ load_dotenv()
 
 llm = ChatOpenAI(
     temperature=0.7,
-    model="glm-4.7-flash",
+    model="gpt-5.4-mini",
 )
 
 ####################################
