@@ -66,7 +66,7 @@ load_dotenv()
 spinner.text = "Initializing llm object..."
 llm = ChatOpenAI(
     temperature=0.3,  # lower = more factual
-    model="glm-4.7-flash",
+    model="gpt-5.4-mini",
 )
 
 ##########################################
